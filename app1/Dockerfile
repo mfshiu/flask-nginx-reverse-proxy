@@ -1,7 +1,5 @@
 FROM ubuntu:latest
 
-MAINTAINER Daniel Nascimento "deo.daniel@gmail.com"
-
 RUN apt-get update -y && \
 apt-get install -y python python-pip python-dev build-essential && \
 easy_install -U pip
