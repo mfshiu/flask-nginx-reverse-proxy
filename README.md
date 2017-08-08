@@ -8,9 +8,9 @@ This repository contains a basic configuration using reverse proxy:
 * [Flask](http://flask.pocoo.org/) (Python Microframework)
 
 #### How it works
-* In docker-compose file is specified two containers to each application. Each application has a build dir and port configuration 
-* Still in this file there is an nginx section specifying the machine version and volume config
-* Basically the config files add two virtual hosts (appwww1.localhost and appwww2.localhost) to nginx host
+* In docker-compose file are specified two containers to each application. Each application has a build dir and port configuration 
+* Still in this file there is a nginx section specifying the machine version and volume config
+* Basically the config file add two virtual hosts (appwww1.localhost and appwww2.localhost) to nginx host
 
 #### How to run
 * Run `docker-compose build` to start docker machine
