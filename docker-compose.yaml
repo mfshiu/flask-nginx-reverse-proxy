@@ -4,12 +4,12 @@ services:
     restart: always
     build: ./app1
     ports:
-      - "5001:5001"
+      - "5002:5002"
   app2:
     restart: always
     build: ./app2
     ports:
-      - "5002:5002"
+      - "5003:5003"
   nginx:
     image: nginx:latest
     volumes:
