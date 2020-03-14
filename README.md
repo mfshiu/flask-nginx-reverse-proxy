@@ -19,6 +19,9 @@ This repository contains a basic configuration using reverse proxy:
 ### Configure local host 
 * Add www1.localhost and www2.localhost as local dns hosts (it will be dependent of your distribution)
 
+* For linux you can follow this link: https://www.geeksforgeeks.org/creating-custom-domain-name-instead-of-localhost-in-ubuntu/
+* For mac you can follow this link: https://osxdaily.com/2009/10/28/set-a-local-domain-to-ease-local-development/
+
 #### Test and results
 * To access in a web-browser www1.localhost or localhost:5001 (change www2 and 5001 to app2)
 * To access in terminal:
