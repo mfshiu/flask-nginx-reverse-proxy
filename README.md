@@ -2,9 +2,9 @@
 
 This repository contains a basic configuration using reverse proxy:
 
-* [Nginx Server](https://nginx.org/en/) (HTTP and reverse proxy server)
+* [Nginx Server](https://nginx.org/en/) (HTTP server for reverse proxy server)
 * [Docker Machine](https://www.docker.com/) (Ubuntu 16.04 version)
-* [Pip](https://pip.pypa.io/en/stable/installing) (Package manager for Python)
+* [Pipenv](https://github.com/pypa/pipenv) (Package manager for Python)
 * [Flask](http://flask.pocoo.org/) (Python Microframework)
 
 #### How it works
@@ -16,12 +16,15 @@ This repository contains a basic configuration using reverse proxy:
 * Run `docker-compose build` to start docker machine
 * Run `docker-compose up` to start applications on server
 
+### Configure local host 
+* Add www1.localhost and www2.localhost as local dns hosts (it will be dependent of your distribution)
+
 #### Test and results
 * To access in a web-browser www1.localhost or localhost:5001 (change www2 and 5001 to app2)
 * To access in terminal:
 ```sh
 $ curl www1.localhost
-Flask Dockerized App1 
+Flask Dockerized App1
 $ curl www2.localhost
 Flask Dockerized App2
-```	
+```
